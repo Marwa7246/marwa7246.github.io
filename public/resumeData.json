@@ -5,17 +5,17 @@
     "description": "Motivated, team-work oriented, and proactive, with passion for software development, coding, and problem-solving",
 
     "social": [
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/marwa.ragheb.75",
-        "className": "fa fa-facebook"
-      },
+
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/marwa-ragheb/",
         "className": "fa fa-linkedin"
       },
-
+      {
+        "name": "codepen",
+        "url": "https://codesandbox.io/u/Marwa7246",
+        "className": "fa fa-codepen"
+      },
       {
         "name": "github",
         "url": "http://github.com/marwa7246",
