@@ -1,0 +1,19 @@
+{
+  "name": "marwa7246.github.io",
+  "version": "1.0.0",
+  "description": "This is a ReactJS based personal resume website template for participants of The 6 Figure JavaScript ReactJS Challenge by Clever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marwa7246/marwa7246.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marwa7246/marwa7246.github.io/issues"
+  },
+  "homepage": "https://github.com/Marwa7246/marwa7246.github.io#readme"
+}
