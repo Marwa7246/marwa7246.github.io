@@ -12,7 +12,6 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state;
     const act = process.env.REACT_APP_ACTION;
-    console.log(act)
     return (
       <form id="contactForm" name="contactForm"
         onSubmit={this.submitForm}
