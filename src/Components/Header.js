@@ -7,6 +7,8 @@ class Header extends Component {
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
       var description= this.props.data.description;
+      var quotes = this.props.data.quotes;
+      var author = this.props.data.author;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -22,7 +24,7 @@ class Header extends Component {
 
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-	         <li><a className="smoothscroll" href="#resume">Skills</a></li>
+	         {/* <li><a className="smoothscroll" href="#resume">Skills</a></li> */}
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
@@ -31,8 +33,19 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
+         <hr></hr>
+
             <h1 className="responsive-headline">{name}</h1>
-            <h3>I'm a <span>{occupation}</span>. {description}.</h3>
+            <hr></hr>
+
+            <h3 id="description">I'm a <span>{occupation}</span>.</h3>
+            <hr></hr>
+            <hr></hr>
+            <a id="description" href="#about"><span>About me</span>.</a>>
+
+
+
+
             <hr />
             <ul className="social">
                {networks}
@@ -41,7 +54,7 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#resume"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
       </p>
 
    </header>

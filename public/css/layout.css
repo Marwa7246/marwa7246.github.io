@@ -33,7 +33,11 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background-image: linear-gradient(to bottom, #11ABB0, black);
+   /* background-image: linear-gradient(to bottom, #11ABB0, black); */
+   background: #161415 url(../images/background-sun2.png) no-repeat top center;
+   ;;
+   
+
 
    /* background: linear-gradient(to bottom #11ABB0 black); */
    /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
@@ -61,18 +65,30 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 80px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
-header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+header .banner-text h2 {
+   font: 30px/1.9em 'librebaskerville-regular', serif;
+   /* color: #A8A8A8; */
    margin: 0 auto;
-   width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   width: 95%;
+   text-shadow: 2px 2px 3px rgba(1, 1, 1, 1);
+   color: rgb(211, 205, 205);
+   
+
+}
+header .banner-text h3 {
+   font: 30px/1.9em 'librebaskerville-regular', serif;
+   /* color: #A8A8A8; */
+   margin: 0 auto;
+   width: 80%;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+   color: rgb(245, 237, 237);
+
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -1022,3 +1038,12 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+#author {
+   font-style: italic;
+   text-align: right;
+   color: rgb(160, 148, 148);
+}
+/* #description {
+font-size: x-large;
+} */
