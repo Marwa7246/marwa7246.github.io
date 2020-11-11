@@ -218,38 +218,30 @@ ul#nav li.current a {
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
    margin-bottom: 12px;
+   text-transform: uppercase;
+   font-size: 30px;
+
 }
+
 #about p {
+   width: 95%;
    line-height: 30px;
-   color: #7A7A7A;
+   color: #e3f3ee;
+   font-size: 20px;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 150px;
+   height: 150px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
+
 #about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
+
+
 
 
 /* ------------------------------------------------------------------ */
@@ -1039,11 +1031,18 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
 #author {
-   font-style: italic;
    text-align: right;
-   color: rgb(160, 148, 148);
+   font-style: italic;
+   font-weight: bolder;
+   color: rgb(91, 99, 91);
+
 }
-/* #description {
-font-size: x-large;
-} */
+
+
+#about .quotes  {
+   /* text-align: right; */
+   font-style: italic;
+   color: rgb(131, 138, 131);
+}
