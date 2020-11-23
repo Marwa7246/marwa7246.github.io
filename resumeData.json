@@ -80,13 +80,13 @@
         "title": "Tweeter",
         "category": "Twitter clone, build using HTML, CSS, JS, jQuery and AJAX, NodeJs, Express, MongoDB",
         "image": "tweeter.png",
-        "url": "https://github.com/Marwa7246/tweeter"
+        "url": "https://tweeeets.herokuapp.com/"
       },
       {
         "title": "Tiny App",
         "category": "Full-stack web application that allows users to shorten URLs built with NodeJs, Express",
         "image": "tinyapp.png",
-        "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
+        "url": "https://tinyy-app.herokuapp.com/"
       }
     ]
   }
