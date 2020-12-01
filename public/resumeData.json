@@ -62,7 +62,7 @@
         "title": "COVID Dashboard",
         "category": "COVID-19 statistics and the related news for different countries across the world built with NodeJs, ReactJs, Ruby-on-Rails, Postgresql",
         "image": "covid.png",
-        "url": "https://github.com/Marwa7246/covid-dashboard"
+        "url": "https://covid19dashboard2020.netlify.app/"
       },
       {
         "title": "Jungle",
